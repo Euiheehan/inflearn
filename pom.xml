@@ -5,6 +5,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>MasulsaAgent</module>
+        <module>refactoring-example</module>
+        <module>refactoring-example</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

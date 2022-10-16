@@ -1,0 +1,33 @@
+package me.whiteship;
+
+public class Book {
+
+    private static String B = "BOOK";
+
+    private static final String C = "BOOK";
+
+    private String a = "a";
+
+    public String d = "d";
+
+    protected String e = "e";
+
+    public Book() {
+    }
+
+    public Book(String a, String d, String e) {
+        this.a = a;
+        this.d = d;
+        this.e = e;
+    }
+
+    private void f(){
+        System.out.println("F");
+    }
+    private void g(){
+        System.out.println("g");
+    }
+    private int h(){
+        return 100;
+    }
+}
